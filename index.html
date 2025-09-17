@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Αναστάσιος Λαμπριανίδης – Προσωπικό Site</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;line-height:1.6}
+    header{padding:64px 20px;text-align:center}
+    h1{margin:0 0 8px}
+    nav a{margin:0 8px;text-decoration:none}
+    .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+    footer{padding:32px 20px;text-align:center;opacity:.7}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Γεια! Είμαι ο Τάσος</h1>
+    <p>IT Engineer · Easy Education · Projects & ταξίδια</p>
+    <nav>
+      <a href="#about">Σχετικά</a>
+      <a href="#projects">Projects</a>
+      <a href="mailto:info@alamprianidis.gr">Επικοινωνία</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section id="about">
+      <h2>Σχετικά</h2>
+      <p>Αυτό είναι το προσωπικό μου site στο GitHub Pages. Θα προσθέσω σύντομα περιεχόμενο.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Easy-Education οικοσύστημα (WordPress, Moodle, PHP CRM)</li>
+        <li>LearnPress προσαρμογές & automations</li>
+        <li>Custom PHP APIs & integrations</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>© <span id="y"></span> A. Lamprianidis</footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
